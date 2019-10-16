@@ -1,0 +1,28 @@
+.outer-container{
+  display:flex;
+  flex-direction:column;
+  height:100vh;
+  justify-content: center;
+  align-items: center;
+}
+.container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  height:330px;
+  width:360px;
+  border: 1px solid black;
+  border-radius: 12px;
+  background-color: white;
+  padding:5px;
+}
+.whack-a-mole-hole{
+  height:100px;
+  width:100px;
+  border:1px solid #6b2727;
+  background-color: #6b2727;
+  border-radius: 50%;
+}
+body{
+  background-image: url(whack-a-mole_background.png);
+}
